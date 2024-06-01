@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UppClass"
+        tools:targetApi="31">
+        <activity
+            android:name=".preobrazinfo"
+            android:exported="false" />
+        <activity
+            android:name=".metrInfo"
+            android:exported="false" />
+        <activity
+            android:name=".kipInfo"
+            android:exported="false" />
+        <activity
+            android:name=".preobrazfinish"
+            android:exported="false" />
+        <activity
+            android:name=".preobraz3"
+            android:exported="false" />
+        <activity
+            android:name=".preobraz2"
+            android:exported="false" />
+        <activity
+            android:name=".preobraz1"
+            android:exported="false" />
+        <activity
+            android:name=".metrfinish"
+            android:exported="false" />
+        <activity
+            android:name=".metr3"
+            android:exported="false" />
+        <activity
+            android:name=".metr2"
+            android:exported="false" />
+        <activity
+            android:name=".metr1"
+            android:exported="false" />
+        <activity
+            android:name=".kipfinish"
+            android:exported="false" />
+        <activity
+            android:name=".kip3"
+            android:exported="false" />
+        <activity
+            android:name=".kip2"
+            android:exported="false" />
+        <activity
+            android:name=".kip"
+            android:exported="false" />
+        <activity
+            android:name=".AllTest"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

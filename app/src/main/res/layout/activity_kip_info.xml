@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kipInfo">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/kipbttn" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/nachattest" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif"
+            android:text="Теоретический материал.\n
+Контрольно-измерительный прибор — средство измерения, предназначенное для получения значений измеряемой физической величины в установленном диапазоне.\n
+Все контрольно-измерительные приборы можно классифицировать на различные группы по следующим признакам:\n\n
+    - род измеряемой величины;\n
+    - способ отсчета;\n
+    - вид шкалы;\n
+    - метрологическое назначение.\n\n
+Выделяют следующие группы контрольно-измерительных приборов в соответствии с родом измеряемой величины:\n\n
+    - приборы для измерения линейно-угловых величин;\n
+    - весоизмерительная техника;\n
+    - приборы для измерения температуры.\n\n
+По способу отсчета все контрольно-измерительные приборы можно подразделить на следующие группы:\n\n
+    - Компарирующие приборы.\n\n
+При измерении этими приборами необходимо участие человека, в них происходит сравнивание измеряемой величины с мерой, эталонной величиной;\n\n
+    - Показывающие приборы.\n\n
+Величина измеряемого параметра называется отсчетным устройством;\n\n
+    - Регистрирующие приборы.\n\n
+Значение измеряемой величины в них непрерывно или в отдельные промежутки времени записывается.
+" />
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
